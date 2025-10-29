@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](img/image.png)
 
 ## Problems
 
@@ -18,7 +18,7 @@
     
     **<span style="color:#00bfff;">1) Enterprise Data</span> → <span style="color:#32cd32;">Data Parsing and Chunking</span> → <span style="color:#ffa500;">Chunks</span> → <span style="color:#ff69b4;">Embedding Model</span> → <span style="color:#9370db;">Index Store (Vector DB)</span> → <span style="color:#00bfff;">Query Embedding</span> ← <span style="color:#ff69b4;">Embedding Model</span> ← <span style="color:#32cd32;">Query</span> ← <span style="color:#ffa500;">User</span>**
 
-    ![alt text](image-1.png)
+    ![alt text](img/image-1.png)
 
     
 <br>
@@ -33,6 +33,6 @@
 <br>
 
 ## RAG Framework
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 
