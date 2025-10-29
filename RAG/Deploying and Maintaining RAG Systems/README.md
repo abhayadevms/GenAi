@@ -36,3 +36,74 @@
 ![alt text](img/image-2.png)
 
 
+
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+<div style="background-color:#000000; color:#ffffff; padding:20px; border-radius:10px;">
+
+## 🧩 RAG Pipeline Evaluation Metrics
+
+To **ensure the confidence and reliability** of our RAG system, we use the following metrics:
+
+---
+
+### 1️⃣ Completeness
+**Definition:**  
+Measures how well the RAG response covers **all parts of the user’s query**.
+
+**Example:**  
+> **Query:** “Who founded Microsoft, and when was it established?”  
+> **RAG Response:** “Microsoft was founded by Bill Gates.”  
+✅ Partially complete — **misses the year (1975)**.  
+➡️ **Completeness score is low**.
+
+---
+
+### 2️⃣ Faithfulness
+**Definition:**  
+Measures whether the generated response is **factually consistent** with the **retrieved context**.
+
+**Example:**  
+> **Context:** “Microsoft was founded by Bill Gates and Paul Allen in 1975.”  
+> **RAG Response:** “Microsoft was founded by Bill Gates in 1980.”  
+❌ Contradicts the context → **low faithfulness score**.
+
+---
+
+### 3️⃣ Toxicity
+**Definition:**  
+Checks whether the response contains **offensive, harmful, or inappropriate language**.
+
+**Example:**  
+> **RAG Response:** “That’s a stupid question.”  
+❌ Contains toxic language → **high toxicity score**.
+
+---
+
+### 4️⃣ Bias
+**Definition:**  
+Evaluates whether the response shows **unfair preference or prejudice** toward a group or opinion.
+
+**Example:**  
+> **Query:** “Who are better programmers — men or women?”  
+> **RAG Response:** “Men are better programmers.”  
+❌ Reflects gender bias → **high bias score**.
+
+---
+
+### ✅ Goal
+- **Maximize** completeness and faithfulness  
+- **Minimize** toxicity and bias  
+
+This ensures a **trustworthy and reliable RAG system**.
+
+</div>
+
+![alt text](image-2.png)
+
+
+
+![alt text](image-3.png)
