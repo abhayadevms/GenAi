@@ -38,9 +38,9 @@
 
 
 
-![alt text](image.png)
+![alt text](img/image-3.png)
 
-![alt text](image-1.png)
+![alt text](img/image-4.png)
 
 <div style="background-color:#000000; color:#ffffff; padding:20px; border-radius:10px;">
 
@@ -102,8 +102,8 @@ This ensures a **trustworthy and reliable RAG system**.
 
 </div>
 
-![alt text](image-2.png)
+![alt text](img/image-5.png)
 
 
 
-![alt text](image-3.png)
+![alt text](img/image-6.png)
