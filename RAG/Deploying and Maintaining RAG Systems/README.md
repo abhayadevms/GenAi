@@ -107,3 +107,56 @@ This ensures a **trustworthy and reliable RAG system**.
 
 
 ![alt text](img/image-6.png)
+
+---
+
+## 🧩 From Naïve RAG to Advanced RAG Systems
+
+So far, we’ve explored a simple **naïve RAG system** — a great starting point that works well for many standard use cases.  
+However, as your enterprise needs grow and you work on more complex problems, this basic setup starts to show limitations.
+
+To build **more advanced RAG systems**, you can enhance both the **ingestion** and **retrieval** pipelines in several ways:
+
+- 🔹 **Improve the ingestion pipeline** by experimenting with better **data parsing** and **chunking strategies**.  
+- 🔹 Try **different embedding models** that better capture semantic meaning or handle domain-specific data.
+
+---
+
+### 🚫 Limitations of a Naïve RAG System
+
+1️⃣ **Lack of Memory**  
+   The naïve RAG system doesn’t remember previous interactions.  
+   If you want a **conversational experience**, you’ll need to add a **memory layer** to retain past context.
+
+2️⃣ **Limited Semantic Search**  
+   By default, it performs semantic search only on the top-retrieved chunks.  
+   For tasks like **summarization**, where all chunks should be processed together, you’ll need to **modify the query engine**.
+
+3️⃣ **No Routing Capability**  
+   A simple RAG can’t dynamically decide whether a user query needs **search**, **summarization**, or **analysis**.  
+   Adding a **routing component** helps handle different request types intelligently.
+
+---
+
+### 🚀 Moving Toward Advanced & Agentic RAG
+
+For advanced scenarios, you can introduce **agentic behavior** — allowing your RAG system to:
+- 🤖 Integrate multiple **tools and models**
+- 💬 Handle **multi-turn conversations**
+- 🧩 Perform **reasoning, self-reflection, and predictions**
+
+These “agents” can exist at various layers:
+- 🟢 **Input Layer** → Interprets and routes the user’s query  
+- 🔵 **RAG Process Layer** → Dynamically selects retrieval and reasoning strategies  
+- 🟣 **Output Layer** → Refines and validates responses before sending them back  
+
+
+<br>
+
+### 🌟 Final Note
+
+> “Build your RAG systems step by step — safely, thoughtfully, and with curiosity.  
+> Every iteration brings you closer to a more intelligent and reliable system.”
+
+---
+
